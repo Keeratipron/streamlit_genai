@@ -3,7 +3,7 @@ import streamlit as st
 pages = {
     "CREATE": [
         st.Page("1_texttospeech.py", title="Text to Speech", icon=":material/font_download:"),
-        # st.Page("2_voicechanger.py", title="Voice Changer", icon=":material/record_voice_over:"),
+        st.Page("2_voicechanger.py", title="Voice Changer", icon=":material/record_voice_over:"),
         st.Page("3_voices.py", title="Voices", icon=":material/graphic_eq:"),
         st.Page("4_soundeffects.py", title="Sound Effects", icon=":material/air:"),
         st.Page("14_Speech_to_text.py", title="Speech to Text", icon=":material/mic:"),
